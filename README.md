@@ -19,20 +19,18 @@ To install the Chat Message Preview Component, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chat-message-preview.git
+   git clone https://github.com/yefreescoding/box-preview-hover.git
    ```
 
-2. Navigate to the project directory:
+2. Install dependencies:
 
    ```bash
-   cd chat-message-preview
+   pnpm install
    ```
 
-3. Install dependencies:
+### .vscode folder
 
-   ```bash
-   npm install
-   ```
+There's a tasks.json file that will run automatically in case you're using this code editor. This process will install all the dependencies needed for the project to work properly and will execute `pnpm run dev` to start a developer environment in a http://localhost
 
 ## Usage
 
@@ -41,48 +39,40 @@ To use the Chat Message Preview Component in your project, follow these steps:
 1. Import the component into your project:
 
    ```jsx
-   import ChatMessagePreview from "path/to/ChatMessagePreview";
+   import Card from "path/to/Card";
    ```
 
 2. Use the component in your JSX code:
 
    ```jsx
-   <ChatMessagePreview
-     message="Hello, how are you?"
-     link="https://example.com/chat"
-   />
+   <Card messages={messages} />
    ```
 
 ## Props
 
 The Chat Message Preview Component accepts the following props:
 
-- `message`: The message to display in the preview.
-- `link`: The URL of the chat link associated with the message.
+- `message`: An array if objects containing all the necessary data for the component to work properly.
 
 ## Example
 
 ```jsx
 import ChatMessagePreview from "path/to/ChatMessagePreview";
 
-const App = () => {
+function App() {
+  const messages: MyObjectMessages[] = data;
+
   return (
-    <div>
-      <ChatMessagePreview
-        message="Hello, how are you?"
-        link="https://example.com/chat"
-      />
-    </div>
+    <main className="min-h-[100dvh] grid place-items-center h-full bg-slate-100">
+      <section className="">
+        <h1 className="mb-8 font-bold text-2xl text-capitalize text-center">
+          Preview Messages
+        </h1>
+        <Card messages={messages} />
+      </section>
+    </main>
   );
-};
+}
 
 export default App;
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this template to fit the specifics of your project. Good luck with your project!
