@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "type": "message",
+    "sender": "Jefe 👹",
+    "timestamp": "2023-11-15T08:00:00Z",
+    "message": ["Como vas con el proyecto??"],
+    "preview": "Como vas con el proyecto??",
+    "read": false,
+    "image": "boss-pic.jpg"
+  },
+  {
+    "id": 2,
+    "type": "message",
+    "sender": "Almerna ❤️",
+    "timestamp": "2023-11-14T15:30:00Z",
+    "message": [
+      "Esta noche cenamos con mis padres",
+      "No te escapes, que te conozco!",
+      "Dime si pudiste conseguir el vino y el queso Gouda.",
+      "AH! mañana es la cita con el ginecólogo."
+    ],
+    "preview": "Cena con mis padres. Hoy!",
+    "read": false,
+    "image": "woman.jpg"
+  },
+  {
+    "id": 3,
+    "type": "message",
+    "sender": "English Teacher",
+    "timestamp": "2023-11-14T15:30:00Z",
+    "message": [
+      "Don't forget about our meeting tomorrow!",
+      "Classes start at 8pm"
+    ],
+    "preview": "Don't forget about our meeting tomorrow",
+    "read": false,
+    "image": "english.jpg"
+  },
+  {
+    "id": 4,
+    "type": "message",
+    "sender": "Grupo Oficina",
+    "timestamp": "2023-11-14T15:30:00Z",
+    "message": [
+      "Voluntarios a quedarse una hora extra mas. Necesitamos terminar el proyecto antes del fin de trimestre.",
+      "Esas horas no serán remuneradas."
+    ],
+    "preview": "Nos quedamos una horita mas. Necesitamos terminar",
+    "read": false,
+    "image": "office.jpg"
+  },
+  {
+    "id": 5,
+    "type": "message",
+    "sender": "Nuevo trabajo",
+    "timestamp": "2023-11-14T15:30:00Z",
+    "message": [
+      "Nos interesa saber mas de ti, que te parece si planeamos el dia para una entrevista y conocerte mejor",
+      "Estamos a la espera de tu respuesta."
+    ],
+    "preview": "Nos interesa saber mas de ti, que te parece si...",
+    "read": false,
+    "image": "recruiter.jpg"
+  }
+]
