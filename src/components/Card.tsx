@@ -19,7 +19,7 @@ const Card = ({ messages }: CardPRops) => {
   return (
     <div
       id="card"
-      className="card w-full md:w-[35ch] flex flex-col gap-4 border border-blue-200 bg-white rounded-xl shadow-md "
+      className="card w-[35ch] flex flex-col gap-4 border border-blue-200 bg-white rounded-xl shadow-md "
     >
       <CardHeader
         messages={messages}

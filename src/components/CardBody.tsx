@@ -9,7 +9,7 @@ interface CardBodyProps {
 
 export const CardBody = ({
   setSenderId,
-  senderId,
+  // senderId,
   messages,
 }: CardBodyProps) => {
   return (
@@ -20,8 +20,7 @@ export const CardBody = ({
           key={message.id}
           className="messages  p-2 w-full cursor-pointer flex  items-center justify-between rounded-lg hover:bg-slate-200/50 transition-colors"
           onMouseEnter={() => {
-            setSenderId(message.id - 1);
-            console.log(senderId);
+            setSenderId(message.id);
           }}
           onMouseLeave={() => {
             setSenderId(0);
